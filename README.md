@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Dog Hotel Website:dog:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Simple Dog Hotel Single Page Website made using React, React-Bootstrap, react-icons and styled-components
 
-## Available Scripts
+## Idea :bulb:
 
-In the project directory, you can run:
+A Dog hotel with 5 available dog-suites needs a website where dog owners could see all the information about the hotel, check the availability in the availability calendar and finally book dog-suites for their dogs. Dog hotel director wants to get an e-mail when someone books a dog-suite, wants to be able to change availability and also upload some hotel news.  
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Build With :computer:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React.js
+- Bootstrap (React-Bootstrap)
+- HTML/CSS (styled-components)
 
-### `yarn test`
+## Other Tools :nut_and_bolt:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Datepicker
+- Google Maps API
+- History API 
+- Web Storage API
 
-### `yarn build`
+## Features :star2:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Ability To Sign In or Sign Up
+  <p>Only guests with profiles can book a stay.
+  When a guest wants to sign in, he needs to fill his personal details - email address, telephone number, description about the dog. 
+  He can also add his photo or a photo of his dog.</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Two types of user profiles - guest and hotel-director
+  <p>It is necessary two have two types of profiles. 
+  The profile of hotel-director will have two extra functions - ability to change available dates in availability calendar and update and upload News section  </p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Ability To See Availabile Dates of the hotel 
+  <p>Every guest who visits the website can see the availability of the hotel.</p>
+  
 
-### `yarn eject`
+- Ability to Book a Stay 
+  <p>When the guests has signed in and made a profile, he can book a stay if there is place available. </p>
+ 
+- Automatic Reservation Confirmation Letter
+  <p>After making a reservation, the guest gets a confirmation letter in his mailbox.</p>
+  
+## Screenshot :camera:
+  
+![screenshot](https://user-images.githubusercontent.com/58292729/111713833-a744d780-8850-11eb-88b0-e217d96ab004.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
